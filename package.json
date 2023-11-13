@@ -2,16 +2,22 @@
   "name": "yabai-sa-setup",
   "version": "1.0.0",
   "description": "Automates the setup of the scripting addition for yabai on macOS.",
+  "author": "",
+  "license": "MIT",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
   "bin": {
     "yabai-sa-setup": "./index.js"
   },
-  "author": "",
-  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
   "dependencies": {
     "sudo-prompt": "^9.2.1"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^1.1.1",
+    "eslint": "^8.53.0"
   }
 }
