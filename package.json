@@ -1,13 +1,31 @@
 {
   "name": "yabai-sa-setup",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "description": "Automates the setup of the scripting addition for yabai on macOS.",
-  "author": "",
+  "author": "mefengl",
   "license": "MIT",
+  "homepage": "https://github.com/mefengl/yabai-sa-setup#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mefengl/yabai-sa-setup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mefengl/yabai-sa-setup/issues"
+  },
+  "keywords": [
+    "yabai",
+    "macOS",
+    "scripting",
+    "setup",
+    "automation"
+  ],
   "main": "index.js",
   "bin": {
     "yabai-sa-setup": "./index.js"
   },
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "start": "node index.js",
     "lint": "eslint .",
