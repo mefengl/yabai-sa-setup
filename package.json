@@ -21,7 +21,7 @@
   ],
   "main": "index.js",
   "bin": {
-    "yabai-sa-setup": "./index.js"
+    "yabai-sa-setup": "index.js"
   },
   "files": [
     "index.js"
