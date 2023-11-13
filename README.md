@@ -1,0 +1,1 @@
+# Yabai Scripting Addition Setup

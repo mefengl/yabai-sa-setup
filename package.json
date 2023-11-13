@@ -1,0 +1,17 @@
+{
+  "name": "yabai-sa-setup",
+  "version": "1.0.0",
+  "description": "Automates the setup of the scripting addition for yabai on macOS.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "yabai-sa-setup": "./index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "sudo-prompt": "^9.2.1"
+  }
+}
